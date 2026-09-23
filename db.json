@@ -1,0 +1,978 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "46C1EDd603I",
+      "name": "Akshay",
+      "email": "akshays7353@gmail.com",
+      "password": "Akshay@123",
+      "role": "user"
+    },
+    {
+      "id": "tql4SwB4BsA",
+      "name": "Nikhil Raj T",
+      "email": "nt@gmail.com",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "MYSWTX_FlDQ",
+      "name": "Sujitha Satheesh",
+      "email": "satheeshKumar@gmail.com",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "LhXUrG2_-po",
+      "name": "Akshay",
+      "email": "akshay123@gmail.com",
+      "password": "akshay@123",
+      "role": "user"
+    },
+    {
+      "id": "Q4V_MkJvtIk",
+      "name": "sujitha",
+      "email": "sujitha@gmail.com",
+      "password": "12345678",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Adjustable Dumbbell",
+      "price": 2999,
+      "category": "Fitness Equipment",
+      "brand": "FitGear",
+      "image": "/products/dumbell.jpg",
+      "description": "Adjustable dumbbell suitable for home workouts.",
+      "stock": 10,
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "title": "Yoga Mat",
+      "price": 899,
+      "category": "Yoga",
+      "brand": "FlexFit",
+      "image": "/products/yoga-mat.jpg",
+      "description": "Comfortable non-slip yoga mat for daily practice.",
+      "stock": 25,
+      "rating": 4.3
+    },
+    {
+      "id": "3",
+      "title": "Resistance Band Set",
+      "price": 699,
+      "category": "Workout Accessories",
+      "brand": "PowerFlex",
+      "image": "/products/resistance-band.jpg",
+      "description": "Set of resistance bands for strength training.",
+      "stock": 30,
+      "rating": 4.4
+    },
+    {
+      "id": "4",
+      "title": "Gym Gloves",
+      "price": 499,
+      "category": "Workout Accessories",
+      "brand": "FitGear",
+      "image": "/products/gym-gloves.jpg",
+      "description": "Grip-enhancing gloves designed for weight training.",
+      "stock": 20,
+      "rating": 4.1
+    },
+    {
+      "id": "5",
+      "title": "Kettlebell 10kg",
+      "price": 1499,
+      "category": "Fitness Equipment",
+      "brand": "IronCore",
+      "image": "/products/kettlebell.jpg",
+      "description": "10kg cast iron kettlebell for strength and conditioning.",
+      "stock": 10,
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "title": "Foam Roller",
+      "price": 799,
+      "category": "Recovery",
+      "brand": "RecoveryPro",
+      "image": "/products/foam-roller.png",
+      "description": "High-density foam roller for muscle recovery.",
+      "stock": 18,
+      "rating": 4.2
+    },
+    {
+      "id": "7",
+      "title": "Skipping Rope",
+      "price": 299,
+      "category": "Cardio",
+      "brand": "SpeedFit",
+      "image": "/products/skipping-rope.png",
+      "description": "Lightweight skipping rope for cardio workouts.",
+      "stock": 40,
+      "rating": 4
+    },
+    {
+      "id": "8",
+      "title": "Workout Bench",
+      "price": 4999,
+      "category": "Fitness Equipment",
+      "brand": "IronCore",
+      "image": "/products/workout-bench.png",
+      "description": "Adjustable workout bench for home strength training.",
+      "stock": 5,
+      "rating": 4.7
+    },
+    {
+      "id": "9",
+      "title": "Olympic Barbell",
+      "price": 6499,
+      "category": "Fitness Equipment",
+      "brand": "IronCore",
+      "image": "/products/olympic-barbell.png",
+      "description": "Heavy-duty Olympic barbell suitable for strength training and compound exercises.",
+      "stock": 8,
+      "rating": 4.7
+    },
+    {
+      "id": "10",
+      "title": "Weight Plate Set 20kg",
+      "price": 3499,
+      "category": "Fitness Equipment",
+      "brand": "IronCore",
+      "image": "/products/weight-plate-set.png",
+      "description": "Durable 20kg weight plate set for home and gym strength workouts.",
+      "stock": 12,
+      "rating": 4.5
+    },
+    {
+      "id": "11",
+      "title": "Adjustable Kettlebell",
+      "price": 2799,
+      "category": "Fitness Equipment",
+      "brand": "PowerFlex",
+      "image": "/products/adjustable-kettlebell.png",
+      "description": "Adjustable kettlebell designed for versatile strength and conditioning workouts.",
+      "stock": 7,
+      "rating": 4.4
+    },
+    {
+      "id": "12",
+      "title": "Pull Up Bar",
+      "price": 1299,
+      "category": "Fitness Equipment",
+      "brand": "FitGear",
+      "image": "/products/pull-up-bar.png",
+      "description": "Strong doorway pull-up bar for upper-body and bodyweight training.",
+      "stock": 14,
+      "rating": 4.3
+    },
+    {
+      "id": "13",
+      "title": "Ab Roller Wheel",
+      "price": 599,
+      "category": "Workout Accessories",
+      "brand": "CoreFit",
+      "image": "/products/ab-roller.png",
+      "description": "Compact ab roller wheel for core strengthening and abdominal workouts.",
+      "stock": 22,
+      "rating": 4.2
+    },
+    {
+      "id": "14",
+      "title": "Gym Training Belt",
+      "price": 999,
+      "category": "Workout Accessories",
+      "brand": "PowerFlex",
+      "image": "/products/gym-belt.png",
+      "description": "Supportive training belt designed for heavy lifting and strength workouts.",
+      "stock": 16,
+      "rating": 4.4
+    },
+    {
+      "id": "15",
+      "title": "Wrist Wraps",
+      "price": 399,
+      "category": "Workout Accessories",
+      "brand": "FitGear",
+      "image": "/products/wrist-wraps.png",
+      "description": "Comfortable wrist wraps that provide support during weight training.",
+      "stock": 35,
+      "rating": 4.1
+    },
+    {
+      "id": "16",
+      "title": "Gym Water Bottle",
+      "price": 449,
+      "category": "Workout Accessories",
+      "brand": "HydroFit",
+      "image": "/products/gym-water-bottle.png",
+      "description": "Reusable sports water bottle designed for workouts and everyday hydration.",
+      "stock": 28,
+      "rating": 4.3
+    },
+    {
+      "id": "17",
+      "title": "Premium Yoga Mat",
+      "price": 1199,
+      "category": "Yoga",
+      "brand": "FlexFit",
+      "image": "/products/premium-yoga-mat.png",
+      "description": "Premium cushioned yoga mat with a non-slip surface for improved stability.",
+      "stock": 20,
+      "rating": 4.6
+    },
+    {
+      "id": "18",
+      "title": "Yoga Block Set",
+      "price": 699,
+      "category": "Yoga",
+      "brand": "FlexFit",
+      "image": "/products/yoga-block-set.png",
+      "description": "Lightweight yoga blocks that improve balance, flexibility and posture.",
+      "stock": 24,
+      "rating": 4.4
+    },
+    {
+      "id": "19",
+      "title": "Yoga Strap",
+      "price": 299,
+      "category": "Yoga",
+      "brand": "FlexFit",
+      "image": "/products/yoga-strap.png",
+      "description": "Durable yoga strap designed to support stretching and flexibility exercises.",
+      "stock": 30,
+      "rating": 4.2
+    },
+    {
+      "id": "20",
+      "title": "Foam Yoga Knee Pad",
+      "price": 349,
+      "category": "Yoga",
+      "brand": "FlexFit",
+      "image": "/products/yoga-knee-pad.png",
+      "description": "Soft support pad that helps reduce pressure on knees during yoga practice.",
+      "stock": 18,
+      "rating": 4.1
+    },
+    {
+      "id": "21",
+      "title": "Speed Jump Rope",
+      "price": 599,
+      "category": "Cardio",
+      "brand": "SpeedFit",
+      "image": "/products/speed-jump-rope.png",
+      "description": "High-speed jump rope designed for cardio conditioning and endurance training.",
+      "stock": 26,
+      "rating": 4.5
+    },
+    {
+      "id": "22",
+      "title": "Exercise Stepper",
+      "price": 1899,
+      "category": "Cardio",
+      "brand": "CardioMax",
+      "image": "/products/exercise-stepper.png",
+      "description": "Compact aerobic stepper for cardio workouts, balance and lower-body training.",
+      "stock": 10,
+      "rating": 4.3
+    },
+    {
+      "id": "23",
+      "title": "Hand Grip Strengthener",
+      "price": 349,
+      "category": "Workout Accessories",
+      "brand": "GripPro",
+      "image": "/products/hand-grip.png",
+      "description": "Adjustable hand grip strengthener for improving grip and forearm strength.",
+      "stock": 40,
+      "rating": 4.2
+    },
+    {
+      "id": "24",
+      "title": "Massage Ball",
+      "price": 499,
+      "category": "Recovery",
+      "brand": "RecoveryPro",
+      "image": "/products/massage-ball.png",
+      "description": "Firm massage ball designed to target muscle tension and improve recovery.",
+      "stock": 25,
+      "rating": 4.4
+    },
+    {
+      "id": "25",
+      "title": "Stretching Strap",
+      "price": 399,
+      "category": "Recovery",
+      "brand": "RecoveryPro",
+      "image": "/products/stretching-strap.png",
+      "description": "Flexible stretching strap to support mobility and post-workout stretching.",
+      "stock": 21,
+      "rating": 4.3
+    },
+    {
+      "id": "26",
+      "title": "Percussion Massage Gun",
+      "price": 4999,
+      "category": "Recovery",
+      "brand": "RecoveryPro",
+      "image": "/products/massage-gun.png",
+      "description": "Portable percussion massage gun designed to support muscle recovery after workouts.",
+      "stock": 6,
+      "rating": 4.6
+    },
+    {
+      "id": "27",
+      "title": "Balance Trainer",
+      "price": 2299,
+      "category": "Recovery",
+      "brand": "CoreFit",
+      "image": "/products/balance-trainer.png",
+      "description": "Balance training equipment for stability, coordination and functional workouts.",
+      "stock": 9,
+      "rating": 4.4
+    },
+    {
+      "id": "28",
+      "title": "Workout Mat",
+      "price": 799,
+      "category": "Workout Accessories",
+      "brand": "FitGear",
+      "image": "/products/workout-mat.png",
+      "description": "Comfortable workout mat suitable for stretching, bodyweight exercises and home training.",
+      "stock": 17,
+      "rating": 4.3
+    }
+  ],
+  "orders": [
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay",
+        "email": "Akshay@gmail.com",
+        "address": "alanallur",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "6282229024"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 15,
+          "rating": 4.5,
+          "quantity": 2
+        },
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 8
+        }
+      ],
+      "subtotal": 13190,
+      "total": 13190,
+      "status": "placed",
+      "createdAt": "2026-09-18T11:39:23.909Z",
+      "id": "XYJkSZxap4o"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "ascac",
+        "email": "sadvasdvds@gmail.com",
+        "address": "ddvsdvsdvsdc",
+        "city": "ssvsavsvsv",
+        "pincode": "6780645",
+        "phone": "513164616566468"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 15,
+          "rating": 4.5,
+          "quantity": 2
+        },
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 8
+        }
+      ],
+      "subtotal": 13190,
+      "total": 13190,
+      "status": "placed",
+      "createdAt": "2026-09-18T13:55:40.731Z",
+      "id": "vJTTNeIGps0"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 15,
+          "rating": 4.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2999,
+      "total": 2999,
+      "status": "placed",
+      "createdAt": "2026-09-18T14:00:56.049Z",
+      "id": "jkmz9Q8YGME"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "6",
+          "title": "Foam Roller",
+          "price": 799,
+          "category": "Recovery",
+          "brand": "RecoveryPro",
+          "image": "/products/foam-roller.png",
+          "description": "High-density foam roller for muscle recovery.",
+          "stock": 18,
+          "rating": 4.2,
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 3496,
+      "total": 3496,
+      "status": "placed",
+      "createdAt": "2026-09-18T14:09:02.818Z",
+      "id": "_JJYwsLlBU8"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 899,
+      "total": 899,
+      "status": "placed",
+      "createdAt": "2026-09-18T14:20:01.461Z",
+      "id": "lHxHcS-Zym8"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 2697,
+      "total": 2697,
+      "status": "placed",
+      "createdAt": "2026-09-18T14:28:07.543Z",
+      "id": "H-LiENZfhKk"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 15,
+          "rating": 4.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2999,
+      "total": 2999,
+      "status": "placed",
+      "createdAt": "2026-09-18T15:11:47.149Z",
+      "id": "zc27eCslr40"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "3",
+          "title": "Resistance Band Set",
+          "price": 699,
+          "category": "Workout Accessories",
+          "brand": "PowerFlex",
+          "image": "/products/resistance-band.jpg",
+          "description": "Set of resistance bands for strength training.",
+          "stock": 30,
+          "rating": 4.4,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 699,
+      "total": 699,
+      "status": "placed",
+      "createdAt": "2026-09-18T15:15:26.497Z",
+      "id": "LmDFARdum-Q"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay",
+        "email": "gtaycity321@gmail.com",
+        "address": "zczsasfasfasf",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "351589411"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 15,
+          "rating": 4.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2999,
+      "total": 2999,
+      "status": "placed",
+      "createdAt": "2026-09-18T15:28:06.847Z",
+      "id": "B3OGGA5XlXM"
+    },
+    {
+      "userId": "MYSWTX_FlDQ",
+      "shipping": {
+        "name": "Akshay",
+        "email": "gtaycity321@gmail.com",
+        "address": "zczsasfasfasf",
+        "city": "sljjhbcsac",
+        "pincode": "646846161",
+        "phone": "351589411"
+      },
+      "items": [
+        {
+          "id": "3",
+          "title": "Resistance Band Set",
+          "price": 699,
+          "category": "Workout Accessories",
+          "brand": "PowerFlex",
+          "image": "/products/resistance-band.jpg",
+          "description": "Set of resistance bands for strength training.",
+          "stock": 30,
+          "rating": 4.4,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 699,
+      "total": 699,
+      "status": "placed",
+      "createdAt": "2026-09-18T17:02:34.988Z",
+      "id": "Z1FK2uwgT4Q"
+    },
+    {
+      "userId": "MYSWTX_FlDQ",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 5
+        }
+      ],
+      "subtotal": 4495,
+      "total": 4495,
+      "status": "placed",
+      "createdAt": "2026-09-19T04:17:51.522Z",
+      "id": "WSrdBKVN0js"
+    },
+    {
+      "userId": "LhXUrG2_-po",
+      "shipping": {
+        "name": "Akshay",
+        "email": "akshay@gmail.com",
+        "address": "akshay@gmail.com",
+        "city": "palakkad",
+        "pincode": "679335",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 899,
+      "total": 899,
+      "status": "placed",
+      "createdAt": "2026-09-19T06:17:12.674Z",
+      "id": "D0zN5nud71I"
+    },
+    {
+      "userId": "LhXUrG2_-po",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "666464666466866865684684",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 1
+        },
+        {
+          "id": "26",
+          "title": "Percussion Massage Gun",
+          "price": 4999,
+          "category": "Recovery",
+          "brand": "RecoveryPro",
+          "image": "/products/massage-gun.png",
+          "description": "Portable percussion massage gun designed to support muscle recovery after workouts.",
+          "stock": 6,
+          "rating": 4.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5898,
+      "total": 5898,
+      "status": "placed",
+      "createdAt": "2026-09-20T07:09:26.957Z",
+      "id": "JSLd4d1jCmk"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "6849484",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "6",
+          "title": "Foam Roller",
+          "price": 799,
+          "category": "Recovery",
+          "brand": "RecoveryPro",
+          "image": "/products/foam-roller.png",
+          "description": "High-density foam roller for muscle recovery.",
+          "stock": 18,
+          "rating": 4.2,
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 2
+        },
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 10,
+          "rating": 4.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5596,
+      "total": 5596,
+      "status": "placed",
+      "createdAt": "2026-09-21T10:56:09.554Z",
+      "id": "wdS5-SPGCtE"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "236547",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "9",
+          "title": "Olympic Barbell",
+          "price": 6499,
+          "category": "Fitness Equipment",
+          "brand": "IronCore",
+          "image": "/products/olympic-barbell.png",
+          "description": "Heavy-duty Olympic barbell suitable for strength training and compound exercises.",
+          "stock": 8,
+          "rating": 4.7,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 25996,
+      "total": 25996,
+      "status": "placed",
+      "createdAt": "2026-09-22T04:20:26.630Z",
+      "id": "EqQdrDMWka8"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678584",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "9",
+          "title": "Olympic Barbell",
+          "price": 6499,
+          "category": "Fitness Equipment",
+          "brand": "IronCore",
+          "image": "/products/olympic-barbell.png",
+          "description": "Heavy-duty Olympic barbell suitable for strength training and compound exercises.",
+          "stock": 8,
+          "rating": 4.7,
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "title": "Gym Gloves",
+          "price": 499,
+          "category": "Workout Accessories",
+          "brand": "FitGear",
+          "image": "/products/gym-gloves.jpg",
+          "description": "Grip-enhancing gloves designed for weight training.",
+          "stock": 20,
+          "rating": 4.1,
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "quantity": 1
+        },
+        {
+          "id": "6",
+          "title": "Foam Roller",
+          "price": 799,
+          "category": "Recovery",
+          "brand": "RecoveryPro",
+          "image": "/products/foam-roller.png",
+          "description": "High-density foam roller for muscle recovery.",
+          "stock": 18,
+          "rating": 4.2,
+          "quantity": 1
+        },
+        {
+          "id": "7",
+          "title": "Skipping Rope",
+          "price": 299,
+          "category": "Cardio",
+          "brand": "SpeedFit",
+          "image": "/products/skipping-rope.png",
+          "description": "Lightweight skipping rope for cardio workouts.",
+          "stock": 40,
+          "rating": 4,
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 10,
+          "rating": 4.5,
+          "quantity": 6
+        }
+      ],
+      "subtotal": 26989,
+      "total": 26989,
+      "status": "placed",
+      "createdAt": "2026-09-23T07:11:39.933Z",
+      "id": "KBzE8NsPTjI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

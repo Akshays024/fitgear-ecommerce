@@ -40,7 +40,8 @@ const Register = () => {
         name,
         email,
         password: pass,
-        role: "user"
+        role: "user",
+        createdAt: Date.now()
       }
 
       const userResponse = await axios.get(

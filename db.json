@@ -5,49 +5,89 @@
       "name": "Akshay",
       "email": "akshay@gmail.com",
       "password": "123456",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758585600000,
+      "isBlocked": false
     },
     {
       "id": "2",
       "name": "Admin",
       "email": "admin@gmail.com",
       "password": "admin123",
-      "role": "admin"
+      "role": "admin",
+      "isBlocked": false
     },
     {
       "id": "46C1EDd603I",
       "name": "Akshay",
       "email": "akshays7353@gmail.com",
       "password": "Akshay@123",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758672000000,
+      "isBlocked": true
     },
     {
       "id": "tql4SwB4BsA",
       "name": "Nikhil Raj T",
       "email": "nt@gmail.com",
       "password": "12345678",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758326400000,
+      "isBlocked": true
     },
     {
       "id": "MYSWTX_FlDQ",
       "name": "Sujitha Satheesh",
       "email": "satheeshKumar@gmail.com",
       "password": "12345678",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758412800000,
+      "isBlocked": false
     },
     {
       "id": "LhXUrG2_-po",
       "name": "Akshay",
       "email": "akshay123@gmail.com",
       "password": "akshay@123",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758499200000,
+      "isBlocked": true
     },
     {
       "id": "Q4V_MkJvtIk",
       "name": "sujitha",
       "email": "sujitha@gmail.com",
       "password": "12345678",
-      "role": "user"
+      "role": "user",
+      "createdAt": 1758585600000,
+      "isBlocked": false
+    },
+    {
+      "id": "s8srDyTExZc",
+      "name": "kani",
+      "email": "kani@gmail.com",
+      "password": "kani@123",
+      "role": "user",
+      "createdAt": 1790311366193,
+      "isBlocked": true
+    },
+    {
+      "id": "GFkblSedq0g",
+      "name": "Akshay",
+      "email": "akshays@gmail.com",
+      "password": "Akshay2006",
+      "role": "user",
+      "createdAt": 1790671235395,
+      "isBlocked": true
+    },
+    {
+      "id": "NQTHSpDSIGA",
+      "name": "Adarsh",
+      "email": "adarsh@gmail.com",
+      "password": "Adarsh@123",
+      "role": "user",
+      "createdAt": 1791034040233,
+      "isBlocked": true
     }
   ],
   "products": [
@@ -59,8 +99,9 @@
       "brand": "FitGear",
       "image": "/products/dumbell.jpg",
       "description": "Adjustable dumbbell suitable for home workouts.",
-      "stock": 10,
-      "rating": 4.5
+      "stock": 14,
+      "rating": 0,
+      "createdAt": "2026-09-01T10:00:00.000Z"
     },
     {
       "id": "2",
@@ -71,7 +112,8 @@
       "image": "/products/yoga-mat.jpg",
       "description": "Comfortable non-slip yoga mat for daily practice.",
       "stock": 25,
-      "rating": 4.3
+      "rating": 4.3,
+      "createdAt": "2026-09-02T10:00:00.000Z"
     },
     {
       "id": "3",
@@ -82,7 +124,8 @@
       "image": "/products/resistance-band.jpg",
       "description": "Set of resistance bands for strength training.",
       "stock": 30,
-      "rating": 4.4
+      "rating": 4.4,
+      "createdAt": "2026-09-03T10:00:00.000Z"
     },
     {
       "id": "4",
@@ -93,7 +136,8 @@
       "image": "/products/gym-gloves.jpg",
       "description": "Grip-enhancing gloves designed for weight training.",
       "stock": 20,
-      "rating": 4.1
+      "rating": 4.1,
+      "createdAt": "2026-09-04T10:00:00.000Z"
     },
     {
       "id": "5",
@@ -104,7 +148,8 @@
       "image": "/products/kettlebell.jpg",
       "description": "10kg cast iron kettlebell for strength and conditioning.",
       "stock": 10,
-      "rating": 4.6
+      "rating": 4.6,
+      "createdAt": "2026-09-05T10:00:00.000Z"
     },
     {
       "id": "6",
@@ -115,7 +160,8 @@
       "image": "/products/foam-roller.png",
       "description": "High-density foam roller for muscle recovery.",
       "stock": 18,
-      "rating": 4.2
+      "rating": 4.2,
+      "createdAt": "2026-09-06T10:00:00.000Z"
     },
     {
       "id": "7",
@@ -126,7 +172,8 @@
       "image": "/products/skipping-rope.png",
       "description": "Lightweight skipping rope for cardio workouts.",
       "stock": 40,
-      "rating": 4
+      "rating": 4,
+      "createdAt": "2026-09-07T10:00:00.000Z"
     },
     {
       "id": "8",
@@ -137,7 +184,8 @@
       "image": "/products/workout-bench.png",
       "description": "Adjustable workout bench for home strength training.",
       "stock": 5,
-      "rating": 4.7
+      "rating": 4.7,
+      "createdAt": "2026-09-08T10:00:00.000Z"
     },
     {
       "id": "9",
@@ -148,7 +196,8 @@
       "image": "/products/olympic-barbell.png",
       "description": "Heavy-duty Olympic barbell suitable for strength training and compound exercises.",
       "stock": 8,
-      "rating": 4.7
+      "rating": 4.7,
+      "createdAt": "2026-09-09T10:00:00.000Z"
     },
     {
       "id": "10",
@@ -159,7 +208,8 @@
       "image": "/products/weight-plate-set.png",
       "description": "Durable 20kg weight plate set for home and gym strength workouts.",
       "stock": 12,
-      "rating": 4.5
+      "rating": 4.5,
+      "createdAt": "2026-09-10T10:00:00.000Z"
     },
     {
       "id": "11",
@@ -170,7 +220,8 @@
       "image": "/products/adjustable-kettlebell.png",
       "description": "Adjustable kettlebell designed for versatile strength and conditioning workouts.",
       "stock": 7,
-      "rating": 4.4
+      "rating": 4.4,
+      "createdAt": "2026-09-11T10:00:00.000Z"
     },
     {
       "id": "12",
@@ -181,7 +232,8 @@
       "image": "/products/pull-up-bar.png",
       "description": "Strong doorway pull-up bar for upper-body and bodyweight training.",
       "stock": 14,
-      "rating": 4.3
+      "rating": 4.3,
+      "createdAt": "2026-09-12T10:00:00.000Z"
     },
     {
       "id": "13",
@@ -192,7 +244,8 @@
       "image": "/products/ab-roller.png",
       "description": "Compact ab roller wheel for core strengthening and abdominal workouts.",
       "stock": 22,
-      "rating": 4.2
+      "rating": 4.2,
+      "createdAt": "2026-09-13T10:00:00.000Z"
     },
     {
       "id": "14",
@@ -203,7 +256,8 @@
       "image": "/products/gym-belt.png",
       "description": "Supportive training belt designed for heavy lifting and strength workouts.",
       "stock": 16,
-      "rating": 4.4
+      "rating": 4.4,
+      "createdAt": "2026-09-14T10:00:00.000Z"
     },
     {
       "id": "15",
@@ -214,7 +268,8 @@
       "image": "/products/wrist-wraps.png",
       "description": "Comfortable wrist wraps that provide support during weight training.",
       "stock": 35,
-      "rating": 4.1
+      "rating": 4.1,
+      "createdAt": "2026-09-15T10:00:00.000Z"
     },
     {
       "id": "16",
@@ -225,7 +280,8 @@
       "image": "/products/gym-water-bottle.png",
       "description": "Reusable sports water bottle designed for workouts and everyday hydration.",
       "stock": 28,
-      "rating": 4.3
+      "rating": 4.3,
+      "createdAt": "2026-09-16T10:00:00.000Z"
     },
     {
       "id": "17",
@@ -236,7 +292,8 @@
       "image": "/products/premium-yoga-mat.png",
       "description": "Premium cushioned yoga mat with a non-slip surface for improved stability.",
       "stock": 20,
-      "rating": 4.6
+      "rating": 4.6,
+      "createdAt": "2026-09-17T10:00:00.000Z"
     },
     {
       "id": "18",
@@ -247,7 +304,8 @@
       "image": "/products/yoga-block-set.png",
       "description": "Lightweight yoga blocks that improve balance, flexibility and posture.",
       "stock": 24,
-      "rating": 4.4
+      "rating": 4.4,
+      "createdAt": "2026-09-18T10:00:00.000Z"
     },
     {
       "id": "19",
@@ -258,7 +316,8 @@
       "image": "/products/yoga-strap.png",
       "description": "Durable yoga strap designed to support stretching and flexibility exercises.",
       "stock": 30,
-      "rating": 4.2
+      "rating": 4.2,
+      "createdAt": "2026-09-19T10:00:00.000Z"
     },
     {
       "id": "20",
@@ -269,7 +328,8 @@
       "image": "/products/yoga-knee-pad.png",
       "description": "Soft support pad that helps reduce pressure on knees during yoga practice.",
       "stock": 18,
-      "rating": 4.1
+      "rating": 4.1,
+      "createdAt": "2026-09-20T10:00:00.000Z"
     },
     {
       "id": "21",
@@ -280,7 +340,8 @@
       "image": "/products/speed-jump-rope.png",
       "description": "High-speed jump rope designed for cardio conditioning and endurance training.",
       "stock": 26,
-      "rating": 4.5
+      "rating": 4.5,
+      "createdAt": "2026-09-21T10:00:00.000Z"
     },
     {
       "id": "22",
@@ -291,7 +352,8 @@
       "image": "/products/exercise-stepper.png",
       "description": "Compact aerobic stepper for cardio workouts, balance and lower-body training.",
       "stock": 10,
-      "rating": 4.3
+      "rating": 4.3,
+      "createdAt": "2026-09-22T10:00:00.000Z"
     },
     {
       "id": "23",
@@ -302,18 +364,8 @@
       "image": "/products/hand-grip.png",
       "description": "Adjustable hand grip strengthener for improving grip and forearm strength.",
       "stock": 40,
-      "rating": 4.2
-    },
-    {
-      "id": "24",
-      "title": "Massage Ball",
-      "price": 499,
-      "category": "Recovery",
-      "brand": "RecoveryPro",
-      "image": "/products/massage-ball.png",
-      "description": "Firm massage ball designed to target muscle tension and improve recovery.",
-      "stock": 25,
-      "rating": 4.4
+      "rating": 4.2,
+      "createdAt": "2026-09-23T10:00:00.000Z"
     },
     {
       "id": "25",
@@ -324,40 +376,20 @@
       "image": "/products/stretching-strap.png",
       "description": "Flexible stretching strap to support mobility and post-workout stretching.",
       "stock": 21,
-      "rating": 4.3
+      "rating": 4.3,
+      "createdAt": "2026-09-24T10:00:00.000Z"
     },
     {
-      "id": "26",
-      "title": "Percussion Massage Gun",
-      "price": 4999,
-      "category": "Recovery",
-      "brand": "RecoveryPro",
-      "image": "/products/massage-gun.png",
-      "description": "Portable percussion massage gun designed to support muscle recovery after workouts.",
-      "stock": 6,
-      "rating": 4.6
-    },
-    {
-      "id": "27",
-      "title": "Balance Trainer",
-      "price": 2299,
-      "category": "Recovery",
-      "brand": "CoreFit",
-      "image": "/products/balance-trainer.png",
-      "description": "Balance training equipment for stability, coordination and functional workouts.",
-      "stock": 9,
-      "rating": 4.4
-    },
-    {
-      "id": "28",
-      "title": "Workout Mat",
-      "price": 799,
-      "category": "Workout Accessories",
-      "brand": "FitGear",
-      "image": "/products/workout-mat.png",
-      "description": "Comfortable workout mat suitable for stretching, bodyweight exercises and home training.",
-      "stock": 17,
-      "rating": 4.3
+      "title": "gripper",
+      "price": 350,
+      "category": "fitness",
+      "brand": "fitgear",
+      "image": "",
+      "description": "it is a handGripper",
+      "stock": 5,
+      "rating": 0,
+      "createdAt": "2026-09-29T08:44:09.583Z",
+      "id": "m_ZCM0r7hhw"
     }
   ],
   "orders": [
@@ -399,7 +431,7 @@
       ],
       "subtotal": 13190,
       "total": 13190,
-      "status": "placed",
+      "status": "processing",
       "createdAt": "2026-09-18T11:39:23.909Z",
       "id": "XYJkSZxap4o"
     },
@@ -441,7 +473,7 @@
       ],
       "subtotal": 13190,
       "total": 13190,
-      "status": "placed",
+      "status": "confirmed",
       "createdAt": "2026-09-18T13:55:40.731Z",
       "id": "vJTTNeIGps0"
     },
@@ -471,7 +503,7 @@
       ],
       "subtotal": 2999,
       "total": 2999,
-      "status": "placed",
+      "status": "processing",
       "createdAt": "2026-09-18T14:00:56.049Z",
       "id": "jkmz9Q8YGME"
     },
@@ -573,7 +605,7 @@
       ],
       "subtotal": 2697,
       "total": 2697,
-      "status": "placed",
+      "status": "processing",
       "createdAt": "2026-09-18T14:28:07.543Z",
       "id": "H-LiENZfhKk"
     },
@@ -972,6 +1004,128 @@
       "status": "placed",
       "createdAt": "2026-09-23T07:11:39.933Z",
       "id": "KBzE8NsPTjI"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay s",
+        "email": "akshays7353@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "678584",
+        "phone": "06282229024"
+      },
+      "items": [
+        {
+          "id": "22",
+          "title": "Exercise Stepper",
+          "price": 1899,
+          "category": "Cardio",
+          "brand": "CardioMax",
+          "image": "/products/exercise-stepper.png",
+          "description": "Compact aerobic stepper for cardio workouts, balance and lower-body training.",
+          "stock": 10,
+          "rating": 4.3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1899,
+      "total": 1899,
+      "status": "placed",
+      "createdAt": "2026-09-24T04:03:40.351Z",
+      "id": "ULIwykCcNMI"
+    },
+    {
+      "userId": "46C1EDd603I",
+      "shipping": {
+        "name": "Akshay",
+        "email": "gtaycity321@gmail.com",
+        "address": "C/O: Satheeshkumar K V, Panikkaveetil\n House, Alanallur, Alanallur P O, Alanallur-I,\n PO: Alanallur, DIST: Palakkad, \nKerala - 678601",
+        "city": "palakkad",
+        "pincode": "136325",
+        "phone": "351589411"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 14,
+          "rating": 0,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2999,
+      "total": 2999,
+      "status": "confirmed",
+      "createdAt": "2026-09-26T14:02:54.220Z",
+      "id": "wCKtRDMVak4"
+    },
+    {
+      "userId": "GFkblSedq0g",
+      "shipping": {
+        "name": "akshay s",
+        "email": "akshays@gmail.com",
+        "address": "akshay s ",
+        "city": "palakkad",
+        "pincode": "678601",
+        "phone": "9874563217"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Yoga Mat",
+          "price": 899,
+          "category": "Yoga",
+          "brand": "FlexFit",
+          "image": "/products/yoga-mat.jpg",
+          "description": "Comfortable non-slip yoga mat for daily practice.",
+          "stock": 25,
+          "rating": 4.3,
+          "createdAt": "2026-09-02T10:00:00.000Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 899,
+      "total": 899,
+      "status": "delivered",
+      "createdAt": "2026-09-29T08:41:42.406Z",
+      "id": "_CCque7SIB0"
+    },
+    {
+      "userId": "NQTHSpDSIGA",
+      "shipping": {
+        "name": "Akshay",
+        "email": "gtaycity321@gmail.com",
+        "address": "wmdwjwbdiunasdd",
+        "city": "palakkad",
+        "pincode": "136325",
+        "phone": "154981124"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Adjustable Dumbbell",
+          "price": 2999,
+          "category": "Fitness Equipment",
+          "brand": "FitGear",
+          "image": "/products/dumbell.jpg",
+          "description": "Adjustable dumbbell suitable for home workouts.",
+          "stock": 14,
+          "rating": 0,
+          "createdAt": "2026-09-01T10:00:00.000Z",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2999,
+      "total": 2999,
+      "status": "placed",
+      "createdAt": "2026-10-03T13:28:26.249Z",
+      "id": "rV0nppO6NhQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

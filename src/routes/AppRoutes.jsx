@@ -11,43 +11,62 @@ import WishList from '../pages/WishList'
 import Checkout from '../pages/Checkout'
 import Orders from '../pages/Orders'
 import Profile from '../pages/Profile'
+import UserLayout from '../layouts/UserLayout'
 
 const AppRoutes = () => {
   return (
-    <>
-      <Routes>
+    <Routes>
+      <Route element={<UserLayout />}>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
-        <Route path='/cart' element={
-          <ProtectedRoute>
-            <Cart />
-          </ProtectedRoute>
-        } />
-        <Route path='/checkout' element={
-          <ProtectedRoute>
-            <Checkout />
-          </ProtectedRoute>
-        } />
-        <Route path='/orders' element={
-          <ProtectedRoute>
-            <Orders />
-          </ProtectedRoute>
-        } />
-        <Route path='/profile' element={
-          <ProtectedRoute>
-            <Profile />
-          </ProtectedRoute>
-        } />
-        <Route path='/wishlist' element={
-          <ProtectedRoute>
-            <WishList />
-          </ProtectedRoute>
-        } />     
-       <Route path='/products/:id' element={<ProductDetails />} />
+        <Route
+          path='/cart'
+          element={
+            <ProtectedRoute>
+              <Cart />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/checkout'
+          element={
+            <ProtectedRoute>
+              <Checkout />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/orders'
+          element={
+            <ProtectedRoute>
+              <Orders />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/profile'
+          element={
+            <ProtectedRoute>
+              <Profile />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/wishlist'
+          element={
+            <ProtectedRoute>
+              <WishList />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/products/:id'
+          element={<ProductDetails />}
+        />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-      </Routes>
-    </>
+      </Route>
+    </Routes>
   )
 }
 
